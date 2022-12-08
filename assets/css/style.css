@@ -1,0 +1,8 @@
+.otter-svg-icon {
+    width: 150px;
+	height: 110px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: inline-block;
+	background-image: url("/assets/icons/otter-solid.svg");
+}
