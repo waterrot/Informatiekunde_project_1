@@ -12,11 +12,11 @@
 	max-height: 100%;
 }
 
-.canada-photo {
-	background: url("assets/photo/verzorger-zeehond.jpg") no-repeat fixed;
-	background-size: cover;
-	background-position: 50% 50%;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;    
-  }
+footer a {
+	text-decoration: none;
+	color: white;
+}
+
+.min-height {
+	min-height: 80vh;
+}

@@ -16,13 +16,19 @@ We zullen zo snel mogelijk contact met u opnemen via: <?php echo $_GET["email"];
 ?>
 
 <?php
+
     $myfile = fopen("$_POST[name].txt", "w");
     $txt = "Neem contact op met: ";
     fwrite($myfile, $txt);
     fwrite($myfile, $_POST['name']);
-    $txt = "Email: ";
-    fwrite($m)
-    d0ce56c391813842a11934
+    $txt = "\nOp Email: ";
+    fwrite ($myfile, $txt);
+    fwrite ($myfile, $_POST['email']);
+    $txt = "\nHet bericht is: ";
+    fwrite ($myfile, $txt);
+    fwrite ($myfile, $_POST['bericht']);
+    fclose($myfile);
 
+?>
 </body>
 </html>
